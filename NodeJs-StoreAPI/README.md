@@ -8,6 +8,7 @@ Variable   type          initial value                current value
 URL        default       http://localhost:5000/api/v1 http://localhost:5000/api/v1
 URL_3000   default       http://localhost:3000/api/v1 http://localhost:3000/api/v1
 
+Example of URL:
 {{URL}}/products?numericFilters=price>80
 {{URL}}/products?numericFilters=price>100
 {{URL}}/products?numericFilters=price>150
