@@ -67,3 +67,23 @@ Swagger UI
       required: true
       description: the job id
 ```
+
+
+#### Additional notes:
+This is the Jobs API where it will allowed you to register, login,
+create new job, update job and delete the job.
+
+#### Authorization Bearer Token:
+There is also additional features of the 
+Authorization bearer token:
+Type: Bearer Token  {{accessToken}}
+This {{accessToken}} is created when you create the new user.
+
+#### Video Demonstration of the Postman:
+For example: in the video:
+{{URL}} have already been created with the Postman API Dev Environment:
+Variable   type          initial value                current value
+URL        default       http://localhost:5000/api/v1 http://localhost:5000/api/v1
+URL_3000   default       http://localhost:3000/api/v1 http://localhost:3000/api/v1
+
+
